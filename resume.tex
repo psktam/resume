@@ -1,0 +1,123 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage{hyperref}
+\usepackage[T1]{fontenc}
+\usepackage[compact]{titlesec}
+\renewcommand{\familydefault}{cmss}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent
+{\Huge \textbf{Peter Kim}} \hfill \textbf{peter.s.kim427@gmail.com}
+\vspace{3pt}
+\hrule
+
+\section*{Education}
+B.S. Mechanical Engineering, 2014; University of California - Berkeley
+
+\section*{Experience}
+    \subsubsection*{Starship QD Automation
+                    (October 2021 - Present) \hfill SpaceX}
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item Writing control software for hydraulic systems that are
+                  responsible for remotely connecting booster and ship to
+                  ground-side commodity supplies.
+            \item Develop and implement forward and inverse kinematics 
+                  models for control of 3 DOF mechanism used to provide
+                  fluids to second stage.
+            \item Create and maintain fluid system models used to estimate
+                  system performance.
+            
+        \end{itemize}
+        
+    \subsubsection*{Octagrabber Autocoupler Controls 
+                    (January 2020 - October 2021) \hfill SpaceX}
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item Designed and implemented control system for mechanism that
+                  allows for remote coupling of ground side fluid fittings to
+                  rocket-side fittings for booster processing.
+            \item System challenges: bulkheads involve dozens of 
+                  connections that have very narrow alignment constraints.
+                  Required ability to maintain or correct alignment
+                  even in highly dynamic sea states.
+            \item Developed code that allows robot to lift and
+                  reposition rocket as needed for alignment.
+            \item System comprises 8 servo motors, 8 pneumatic actuators,
+                  10 laser sensors, 6 load cells, 10 cameras.
+            \item Software written in TwinCAT and deployed on Beckhoff PLC. 
+                  Schematics drawn in EPlan ProPanel.
+        \end{itemize}
+
+    \subsubsection*{Octagrabber Commissioning
+                    (March 2020 - October 2021) \hfill SpaceX}
+		\begin{itemize}
+		    \setlength\itemsep{-0.5em}
+		    \item Commissioned control system for rocket-securing robot
+		          currently deployed on SpaceX droneships.
+            \item Integrated system that comprises over 20 servo motors, 
+                  around 50 sensors, hydraulic track drive system, and
+                  8 cameras.
+            \item System deployed using Beckhoff/TwinCAT/EtherCAT technology
+                  stack.
+		    \item Managed part procurement; project closed out in time to 
+		          support recovery mission even with COVID chip shortage 
+		          issues.
+		    
+		\end{itemize}
+	
+	\subsubsection*{Octagrabber Operations Development 
+	                (January 2019 - October 2021) \hfill SpaceX}
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item Served as primariy octagrabber operator in order to 
+                  optimize securing operation. 
+            \item Brought what started as a 
+                  10 hour operation to one that nominally ran in 2.5 hours.
+            \item Developed software in C++ to process LiDAR data to localize 
+                  rocket relative to the robot.
+            \item Authored training program now used to train new robot
+                  operators.
+            \item Personally secured over 20 boosters successfully,
+                  even in highly unstable conditions.
+        \end{itemize}
+
+    \subsubsection*{Launch Data Review Automation
+                    (October 2014 - October 2019) \hfill SpaceX}
+        \begin{itemize}
+            \setlength\itemsep{-0.5em}
+            \item Implemented time-series analysis algorithms for hydraulics
+                  systems at launch sites.
+            \item Processed data collected from 3 launch sites with hundreds
+                  of channels each in order to facilitate critical go/no-go
+                  analyses for launch.
+            \item Implemented in python. Notable packages are
+                  numpy, scipy, scikit-learn, and matplotlib.
+            \item Developed novel algorithm for robust time-series alignment 
+                  using Taylor expansions.
+        \end{itemize}
+
+\subsubsection*{3D Printing \hfill Personal Hobby}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item  Designed and built custom 3D printers.
+               \url{https://github.com/psktam/3d_printer_mk3}
+        \item Current build: RAMPS1.4 running Marlin firmware, heated bed,
+              FDM printer with all-metal hotend
+        \item Part files designed in SolidWorks and fabricated with laser
+              cutter.
+    \end{itemize}
+
+\section*{Skill Summary}
+    \begin{itemize}
+        \setlength\itemsep{-0.5em}
+        \item \textbf{Python}: numpy, scipy, matplotlib
+        \item \textbf{Embedded Systems}: PLCs, Arduinos, C++/C
+        \item \textbf{Fabrication}: Tube and sheet-metal bending, 
+              3D printing, laser-cutting, water-jetting, CNC milling.
+        \item \textbf{CAD}: SolidWorks, AutoDesk Inventor, Siemens NX
+    \end{itemize}
+
+
+\end{document}
