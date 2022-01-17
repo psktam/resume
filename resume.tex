@@ -1,5 +1,5 @@
 \documentclass[11pt]{article}
-\usepackage[a4paper, total={6.5in, 10in}]{geometry}
+\usepackage[a4paper, total={7.5in, 10.5in}]{geometry}
 \usepackage{hyperref}
 \usepackage[T1]{fontenc}
 \usepackage[compact]{titlesec}
@@ -20,14 +20,15 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
                     (October 2021 - Present) \hfill SpaceX}
         \begin{itemize}
             \setlength\itemsep{-0.5em}
-            \item Writing control software for hydraulic systems that are
-                  responsible for remotely connecting booster and ship to
-                  ground-side commodity supplies.
+            \item Write control software for hydraulic systems that
+                  connect launch vehicle to ground-side commodities.
             \item Develop and implement forward and inverse kinematics 
-                  models for control of 3 DOF mechanism used to provide
-                  fluids to second stage.
+                  models for control of 3 DOF mechanism for second 
+                  stage.
             \item Create and maintain fluid system models used to estimate
                   system performance.
+            \item Write integrated hardware-out-of-the-loop tests in 
+                  Python.
             
         \end{itemize}
         
@@ -36,8 +37,8 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
         \begin{itemize}
             \setlength\itemsep{-0.5em}
             \item Designed and implemented control system for mechanism that
-                  allows for remote coupling of ground side fluid fittings to
-                  rocket-side fittings for booster processing.
+                  remotely couples ground-side fluids to 
+                  booster.
             \item System challenges: bulkheads involve dozens of 
                   connections that have very narrow alignment constraints.
                   Required ability to maintain or correct alignment
@@ -50,14 +51,14 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
                   Schematics drawn in EPlan ProPanel.
         \end{itemize}
 
-    \subsubsection*{Octagrabber Commissioning
+    \subsubsection*{Octagrabber Controls Commissioning
                     (March 2020 - October 2021) \hfill SpaceX}
 		\begin{itemize}
 		    \setlength\itemsep{-0.5em}
 		    \item Commissioned control system for rocket-securing robot
 		          currently deployed on SpaceX droneships.
             \item Integrated system that comprises over 20 servo motors, 
-                  around 50 sensors, hydraulic track drive system, and
+                  50 sensors, hydraulic track drive system, and
                   8 cameras.
             \item System deployed using Beckhoff/TwinCAT/EtherCAT technology
                   stack.
@@ -71,10 +72,9 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
 	                (January 2019 - October 2021) \hfill SpaceX}
         \begin{itemize}
             \setlength\itemsep{-0.5em}
-            \item Served as primariy octagrabber operator in order to 
+            \item Served as primary octagrabber operator in order to 
                   optimize securing operation. 
-            \item Brought what started as a 
-                  10 hour operation to one that nominally ran in 2.5 hours.
+            \item Optimized booster securing process from 10 hours with two operators to 2.5 hours with single operator.
             \item Developed software in C++ to process LiDAR data to localize 
                   rocket relative to the robot.
             \item Authored training program now used to train new robot
@@ -92,6 +92,9 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
             \item Processed data collected from 3 launch sites with hundreds
                   of channels each in order to facilitate critical go/no-go
                   analyses for launch.
+            \item Developed web-frontend to allow engineers to interact with
+                  corpus of historical data. Currently used across the company
+                  and also by commercial and government customers.
             \item Implemented in python. Notable packages are
                   numpy, scipy, scikit-learn, and matplotlib.
             \item Developed novel algorithm for robust time-series alignment 
@@ -112,7 +115,10 @@ B.S. Mechanical Engineering, 2014; University of California - Berkeley
 \section*{Skill Summary}
     \begin{itemize}
         \setlength\itemsep{-0.5em}
-        \item \textbf{Python}: numpy, scipy, matplotlib
+        \item \textbf{Python}: time-series signal processing via numpy, scipy,      
+              matplotlib
+        \item \textbf{Fluid Systems Analysis and Simulation}: hydraulics, pneumatics, 
+              cryogenic propellants
         \item \textbf{Embedded Systems}: PLCs, Arduinos, C++/C
         \item \textbf{Fabrication}: Tube and sheet-metal bending, 
               3D printing, laser-cutting, water-jetting, CNC milling.
